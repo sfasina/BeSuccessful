@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   font-weight: 400;
   position: relative;
-  font-family: "Inter";
+  font-family: "Inter sans-serif";
 }
 
 .margin_middle {
@@ -172,7 +172,7 @@ nav {
 }
 
 .top_background {
-  background: url(/images/top_background.webp) right/cover no-repeat;
+  background: url(images/top_background.webp) right/cover no-repeat;
   position: absolute;
   top: 0;
   width: 102%;
@@ -272,12 +272,12 @@ nav {
 
 .banner_container {
   margin-top: 10rem;
-  background: url(/images/banner_background.webp) center/cover no-repeat;
+  background: url(images/banner_background.webp) center/cover no-repeat;
   border-radius: 30px;
   height: 28rem;
   margin-bottom: 3rem;
   .banner_img {
-    background: url(/images/david_banner.webp) center/cover no-repeat;
+    background: url(images/david_banner.webp) center/cover no-repeat;
     position: relative;
     bottom: 9vh;
     width: 48rem;
@@ -329,15 +329,15 @@ nav {
       z-index: -1;
     }
     &.card_1::before {
-      background-image: url(/images/background_money.svg);
+      background-image: url(images/background_money.svg);
     }
 
     &.card_2::before {
-      background-image: url(/images/background_pin.svg);
+      background-image: url(images/background_pin.svg);
     }
 
     &.card_3::before {
-      background-image: url(/images/background_fold.svg);
+      background-image: url(images/background_fold.svg);
     }
   }
 }
@@ -361,10 +361,10 @@ nav {
       border-radius: 30px;
     }
     .gain_first {
-      background: url(/images/gain_img_1.webp) center/cover no-repeat;
+      background: url(images/gain_img_1.webp) center/cover no-repeat;
     }
     .gain_second {
-      background: url(/images/gain_img_2.webp) center/cover no-repeat;
+      background: url(images/gain_img_2.webp) center/cover no-repeat;
     }
   }
 }
@@ -430,7 +430,7 @@ footer {
 }
 
 .footer_background {
-  background: url(/images/footer_background.webp) center top/ cover no-repeat;
+  background: url(images/footer_background.webp) center top/ cover no-repeat;
   position: absolute;
   bottom: 0;
   width: 102%;
