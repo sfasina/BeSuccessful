@@ -175,7 +175,7 @@
     box-shadow: none;
   }
   .gain .banner_img .gain_first {
-    display: none;
+    background: url(../images/gain_img_group.webp) center/cover no-repeat;
   }
   .gain .banner_img .gain_second {
     display: none;
