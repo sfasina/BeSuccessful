@@ -128,6 +128,9 @@
     order: 2;
     width: 100%;
   }
+  .studie .studie_img img {
+    width: 55%;
+  }
   .studie .studie_text {
     width: 100%;
     padding: 1rem;
@@ -170,7 +173,7 @@
   .gain .banner_img .gain_img {
     bottom: 0;
     width: 24rem;
-    height: 45rem;
+    height: 43rem;
     background: none;
     box-shadow: none;
   }

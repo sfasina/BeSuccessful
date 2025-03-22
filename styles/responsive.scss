@@ -140,6 +140,9 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     .studie_img {
       order: 2;
       width: 100%;
+      img {
+        width: 55%;
+      }
     }
     .studie_text {
       width: 100%;
@@ -183,7 +186,7 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       .gain_img {
         bottom: 0;
         width: 24rem;
-        height: 45rem;
+        height: 43rem;
         background: none;
         box-shadow: none;
       }
