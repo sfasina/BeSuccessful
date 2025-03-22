@@ -177,6 +177,7 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
   }
   .gain {
+    display: none;
     margin-bottom: 20rem;
     .banner_img {
       column-gap: 3rem;
@@ -186,12 +187,6 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 45rem;
         background: none;
         box-shadow: none;
-      }
-      .gain_first {
-        display: none;
-      }
-      .gain_second {
-        display: none;
       }
     }
   }
