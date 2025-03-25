@@ -139,10 +139,7 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     row-gap: 1rem;
     .studie_img {
       order: 2;
-      width: 100%;
-      img {
-        width: 55%;
-      }
+      max-width: 65%;
     }
     .studie_text {
       width: 100%;
@@ -180,23 +177,7 @@ $box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
   }
   .gain {
-    margin-bottom: 20rem;
-    .banner_img {
-      column-gap: 3rem;
-      .gain_img {
-        bottom: 0;
-        width: 24rem;
-        height: 43rem;
-        background: none;
-        box-shadow: none;
-      }
-      .gain_first {
-        background: url(../images/gain_img_group.webp) center/cover no-repeat !important;
-      }
-      .gain_second {
-        display: none;
-      }
-    }
+    display: none;
   }
   .top_container {
     p {
